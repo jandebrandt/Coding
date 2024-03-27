@@ -12,12 +12,6 @@ body {
 #background1 {
     background-color: lightcoral;
 }
-#copyright {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    font-size: medium;
-}
 #logo {
     text-shadow: 2px 2px 0px red, 3px 3px 0px red;
     color: darkred;
@@ -142,6 +136,12 @@ footer {
 .footer_actions a:hover {
     text-shadow: 2px 2px 0px red, 3px 3px 0px red;
 }
+#copyright {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightcoral;
+    font-size: x-large;
+}
 #text1 {
     color: white;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -188,4 +188,18 @@ footer {
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
+}
+#a1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+    font-size: xxx-large;
+    padding: 30px;
+}
+#a1-1 {
+    color: rgb(0, 0, 0)
+}
+#a1-2 {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
