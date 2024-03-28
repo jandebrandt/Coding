@@ -146,7 +146,8 @@ footer {
     color: white;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     text-decoration: none;
-    margin: 5cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 #imglu :hover {
     border-radius: 1rem;
