@@ -1,12 +1,807 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server 1</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ferox - 3072MB JustJan
+</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta name="_token" content="A7q566h0cnuRjgRxZUYMMpbeWhmfEFNhVlABK8e9">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#bc6e3c">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#0e4688">
+  <!-- layouts.scripts -->
+  <script>window.Pterodactyl = window.Pterodactyl || {};Pterodactyl.server = {"uuid":"7640a84a-5147-4c2d-ac7c-f3d572e70b6b","uuidShort":"7640a84a","daemonSecret":"i_M8msKHHrPgMqHQhBKIt9oaFsYNTDfucW6jMKTOhW","cpu":200,"daystogo":{"diff":10}};Pterodactyl.server_token = 'i_M8msKHHrPgMqHQhBKIt9oaFsYNTDfucW6jMKTOhW';Pterodactyl.node = {"fqdn":"nl1-mc01.ferox.host","scheme":"https","daemonListen":8080};Pterodactyl.meta = {"saveFile":"https:\/\/panel.ferox.host\/server\/7640a84a\/files\/save","csrfToken":"A7q566h0cnuRjgRxZUYMMpbeWhmfEFNhVlABK8e9"};Pterodactyl.config = {"console_count":"10","console_freq":"200"};Pterodactyl.data = {"versions":{"spigot":["1.20.6","1.20.4","1.20.2","1.20.1","1.20","1.19.4","1.19.3","1.19.2","1.18.2","1.17.1","1.16.5","1.15.2","1.14.4","1.13.2","1.12.2","1.11.2","1.10.2","1.9.4","1.8.8","1.7.10"],"purpur":["1.20.6","1.20.4","1.20.2","1.20.1","1.19.4","1.19.3","1.18.2","1.17.1"],"forge":["1.20.6","1.20.4","1.20.2","1.20.1","1.20","1.19.4","1.19.3","1.19.2","1.19","1.18.2","1.17.1","1.16.5","1.15.2","1.12.2","1.7.10"],"snapshots":["1.20"],"vanilla":["1.20"],"fabric":["1.20.6","1.20.4","1.20.2","1.20.1","1.20","1.19.4","1.19.3","1.19.2","1.19","1.18.2","1.18.1","1.17.1","1.16.5"]}};</script>  <!-- end layouts.scripts -->
+    <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/vendor/bootstrap/bootstrap.min.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/vendor/adminlte/admin.min.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/vendor/adminlte/colors/skin-blue.min.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/vendor/sweetalert/sweetalert.min.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/vendor/animate/animate.min.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/pterodactyl.css?t=9f682ec1e7e27a3fc9a9f96fe5a17216">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+  
+<link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/terminal.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/plugins/minecraft/setup.css">
 </head>
-<body>
-    <h1>Welkom op Server 1!</h1>
-    <p>Je bent succesvol ingelogd.</p>
+
+<body class="hold-transition skin-blue fixed sidebar-mini">
+
+
+  <div class="wrapper">
+    <header class="main-header">
+      <a href="https://panel.ferox.host" class="logo">
+      </a>
+      <nav class="navbar navbar-static-top">
+
+        <a href="#" class="sidebar-toggle" style="color:black" data-toggle="push-menu" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="user-menu">
+              <a href="https://panel.ferox.host/account">
+                <span class="hidden-xs text-black border-right"><i class="fas fa-user-cog text-black"></i>&nbsp;JustJan Google</span>
+              </a>
+            </li>
+
+            <li>
+            <li><a onclick="toggleDarkTheme()" style="cursor:pointer;" data-toggle="tooltip" data-placement="bottom" title="Toggle dark mode"><i class="fa fa-moon text-black"></i></a></li>
+            </li>
+            <script>
+              function toggleDarkTheme() {
+                if (localStorage.darkTheme == "true") {
+                  document.body.classList.remove('skin-midnight')
+                  localStorage.darkTheme = "false"
+                  window.Editor?.setTheme('ace/theme/chrome')
+                } else {
+                  document.body.classList.add('skin-midnight')
+                  localStorage.darkTheme = "true"
+                  window.Editor?.setTheme('ace/theme/github_dark')
+                }
+              }
+
+              if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.darkTheme == undefined) {
+                localStorage.darkTheme = "true"
+              }
+
+              if (localStorage.darkTheme == "true") {
+                document.body.classList.add('skin-midnight')
+                window.Editor?.setTheme('ace/theme/github_dark')
+
+              } else {
+                document.body.classList.remove('skin-midnight')
+                window.Editor?.setTheme('ace/theme/chrome')
+              }
+            </script>
+                        <li>
+            <li><a href="https://panel.ferox.host/auth/logout" id="logoutButton" data-toggle="tooltip" data-placement="bottom" title="Uitloggen"><i class="fas fa-sign-out-alt text-red"></i></a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <aside class="main-sidebar" style="z-index: 99998;">
+      <a href="/" class="logo">
+        <img src="/FH-large-logo-color.png" style="padding: 10%; width: 100%;">
+
+      </a>
+      <section class="sidebar">
+                <div class="user-panel">
+          <div class="info">
+            <p>3072MB JustJan</p>
+
+                        <a href="#" id="server_status_icon"><i class="fa fa-circle text-default"></i> Checking...</a>
+
+          </div>
+        </div>
+                <ul class="sidebar-menu tree" data-widget="tree">
+          <li class="header">Algemeen</li>
+          <li class="1">
+            <a href="https://panel.ferox.host">
+              <i class="fa fa-server"></i> <span>Mijn servers</span>
+            </a>
+          </li>
+          <li class="header">Mijn Profiel</li>
+          <li class="1">
+            <a href="https://panel.ferox.host/account">
+              <i class="fas fa-user-cog"></i> <span>Mijn Profiel</span>
+            </a>
+          </li>
+
+
+
+          <li class="1">
+            <a href="https://panel.ferox.host/account/security">
+              <i class="fas fa-fingerprint"></i>&nbsp; <span>Beveiliging</span>
+            </a>
+          </li>
+                    <li>
+            <a href="https://winkel.ferox.host/invoice">
+              <i class="fas fa-money"></i> <span>Facturen</span>
+            </a>
+          </li>
+                              <li class="header">Dienst Beheren</li>
+          <li class="active">
+            <a href="https://panel.ferox.host/server/7640a84a">
+              <i class="fa fa-terminal"></i> <span>Console</span>
+              <span class="pull-right-container muted muted-hover" href="https://panel.ferox.host/server/7640a84a/console" id="console-popout">
+                <span class="label label-default pull-right" style="padding: 3px 5px 2px 5px;">
+                  <i class="fa fa-external-link-alt"></i>
+                </span>
+              </span>
+            </a>
+          </li>
+                    <li >
+            <a href="https://panel.ferox.host/server/7640a84a/files">
+              <i class="fa fa-files-o"></i> <span>Bestandsbeheer</span>
+            </a>
+          </li>
+                              <li >
+            <a href="https://panel.ferox.host/server/7640a84a/users">
+              <i class="fa fa-users"></i> <span>Subgebruikers</span>
+            </a>
+          </li>
+                                        <li >
+            <a href="https://panel.ferox.host/server/7640a84a/databases">
+              <i class="fa fa-database"></i> <span>Databases</span>
+            </a>
+          </li>
+                                        <li>
+            <a href="https://panel.ferox.host/server/7640a84a/backup">
+              <i class="fa fa-trash-restore"></i> <span>Backups</span>
+            </a>
+          </li>
+          
+
+                              <li >
+            <a class="nav-link" href="https://panel.ferox.host/server/7640a84a/properties">
+              <i class="fa fa-cog"></i> <span>Server Properties</span>
+            </a>
+          </li>
+                    
+          <li class="treeview
+                                                                    ">
+            <a href="#">
+              <i class="fa fa-wrench"></i>
+              <span>Setup</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+                                          <li class="1"><a href="https://panel.ferox.host/server/7640a84a/versions"><i class="fa fa-code-branch"></i>Versie Beheer</a></li>
+                                          <li class="1"><a href="https://panel.ferox.host/server/7640a84a/modpacks"><i class="fa fa-folder-plus"></i>Modpacks</a></li>
+                                                        <li class="1"><a href="https://panel.ferox.host/server/7640a84a/world"><i class="fa fa-globe-europe"></i>Upload Werelden</a></li>
+                                          
+                            <li class="1"><a href="https://panel.ferox.host/server/7640a84a/schedules"><i class="fa fa-clock-o"></i>Schedules <span class="label label-primary pull-right">0</span></a>
+              </li>
+              
+                            <li class="1"><a href="https://panel.ferox.host/server/7640a84a/settings/allocation"><i class="fa fa-link"></i>Poort instellingen</a>
+              </li>
+                                          <li class="1"><a href="https://panel.ferox.host/server/7640a84a/settings/sftp"><i class="fa fa-file"></i>SFTP instellingen</a></li>
+                                                        <li class="1"><a href="https://panel.ferox.host/server/7640a84a/subdomain"><i class="fa fa-globe"></i>Subdomeinen</a></li>
+                            
+              
+            </ul>
+          </li>
+
+
+                    <li class="treeview
+                                                                    ">
+            <a href="#">
+              <i class="fa fa-gears"></i>
+              <span>Meta Configuratie</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+                            <li class="1"><a href="https://panel.ferox.host/server/7640a84a/settings/name"><i class="fa fa-tags"></i>Server Naam</a></li>
+                                          <li class="1"><a href="https://panel.ferox.host/server/7640a84a/settings/startup"><i class="fa fa-arrow-circle-up"></i>Startup Parameters</a>
+              </li>
+                          </ul>
+          </li>
+                    
+          <li class="header">SUPPORT</li>
+
+ 	  
+
+          <li class=""><a href="https://discord.gg/q5VWe58"><i class="fab fa-discord"></i><span> Discord</span></a></li>
+          <li class=""><a href="https://winkel.ferox.host/newticket"><i class="fas fa-globe"></i><span> Webtickets</span></a></li>
+          <li class=""><a href="https://kb.feroxhosting.nl"><i class="fas fa-globe"></i><span> Kennisbank</span></a></li>
+          <br>
+          <br>
+
+                  </ul>
+      </section>
+    </aside>
+    <div class="content-wrapper">
+
+
+
+      <section class="content-header">
+        <h1>Console 3072MB JustJan</h1>
+<ol class="breadcrumb">
+    <li><a href="https://panel.ferox.host">Mijn services</a></li>
+    <li class="active">3072MB JustJan</li>
+</ol>
+      </section>
+      <section class="content">
+        <div class="row">
+          <div class="col-xs-12">
+                                  </div>
+        </div>
+        
+
+<script>
+    function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text().slice(0, -1)).select();
+        document.execCommand("copy");
+        $temp.remove();
+
+        swal({
+            type: 'success',
+            title: '',
+            text: 'Successvol gekopieerd.',
+        });
+
+    }
+
+</script>
+<div class="row">
+    <div class="col-xs-12 col-md-8">
+        <div class="box">
+            <div class="box-body position-relative">
+                <div id="terminal" style="width:100%"></div>
+                <div id="terminal_input" class="form-group no-margin">
+                    <div class="input-group">
+                        <div class="input-group-addon terminal_input--prompt">justjan:~/$</div>
+                        <input type="text" class="form-control terminal_input--input">
+                    </div>
+                </div>
+                <div id="terminalNotify" class="terminal-notify hidden">
+                    <i class="fa fa-bell"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-xs-12 col-md-4">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title"><b>Power Control</b></h3>
+            </div>
+            <style>
+                .btn-app {
+                    min-width: 75px;
+                }
+            </style>
+            <div class="box-footer">
+                                <button class="btn btn-app" data-attr="power" data-action="start">
+                    <i class="fa fa-play"></i> Start
+                </button>
+                                                <button class="btn btn-app" data-attr="power" data-action="restart">
+                    <i class="fa fa-refresh"></i> Restart
+                </button>
+                                                                        <button class="btn btn-app" data-attr="power" data-action="stop">
+                        <i class="fa fa-stop"></i> Stop
+                    </button>
+                                                            <button class="btn btn-app" data-attr="power" data-action="kill">
+                    <i class="fa fa-bomb"></i> Kill
+                    </button>
+                                                </div>
+        </div>
+    </div>
+            <div class="col-xs-12 col-md-4">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title"><b>Informatie</b></h3>
+            </div>
+            <dl class="dl-horizontal">
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-clock"></i>&nbsp;<strong>Time left</strong></h5>
+                </dt>
+                                <dd>
+                    <h5 style="cursor:pointer;" onclick="window.location.href='https://winkel.ferox.host/invoice'"><span id="timeLeft">00</span> dagen&nbsp;<i class="fa fa-refresh"></i></h5>
+                </dd>
+                
+                                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-directions"></i>&nbsp;<strong>Connection</strong></h5>
+                </dt>
+                <dd>
+                    <h5 title="IP kopiëren" style="cursor:pointer;" onclick="copyToClipboard('#ip')" id="ip">nl1-mc01.ferox.host:20356&nbsp;<i class="fas fa-paste"></i></h5>
+                </dd>
+
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-plug"></i>&nbsp;<strong>Direct IP</strong></h5>
+                </dt>
+                <dd>
+                    <h5 title="Cijfer IP kopiëren" style="cursor:pointer;" onclick="copyToClipboard('#exactip')" id="exactip">45.136.141.71:20356&nbsp;<i class="fas fa-paste"></i></h5>
+                </dd>
+                                <!--                 <dt><h5>&nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;<strong>Server Name</strong></h5></dt>
+                 -->
+
+                <!-- <dd><h5>3072MB JustJan</h5></dd> -->
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fas fa-life-ring"></i>&nbsp;<strong>Server ID</strong></h5>
+                </dt>
+                <dd>
+                    <h5 title="Server ID kopiëren" style="cursor:pointer;" onclick="copyToClipboard('#id')" id="id">7640a84a&nbsp;<i class="fas fa-paste"></i></h5>
+                </dd>
+                <!--<dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-server"></i>&nbsp;<strong>Beschrijving</strong></h5>
+                </dt>
+                <dd>
+                    <h5>Spigot Minecraft Server</h5>
+                </dd>-->
+
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-memory"></i>&nbsp;<strong>RAM</strong></h5>
+                </dt>
+                <dd>
+                    <h5><span id="memory"></span> / 3072 MB</h5>
+                </dd>
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="far fa-hdd"></i>&nbsp;<strong>Storage</strong></h5>
+                </dt>
+                <dd>
+                    <h5><span id="disk"></span> / 30720 MB</h5>
+                </dd>
+                                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fa fa-users"></i>&nbsp;<strong>Spelers</strong></h5>
+                </dt>
+                <dd>
+                    <h5><span id="spelers"></span></h5>
+                </dd>
+                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fas fa-wrench"></i>&nbsp;<strong>Version</strong></h5>
+                </dt>
+                                <dd>
+                    <h5 title="Versie veranderen" style="cursor:pointer;" onclick="window.location.href='https://panel.ferox.host/server/7640a84a/versions'"><span id="versie"></span>&nbsp;<i class="fa fa-refresh"></i></h5>
+                </dd>
+                
+                                <dt>
+                    <h5>&nbsp;&nbsp;<i class="fas fa-hdd"></i>&nbsp;<strong>Node</strong></h5>
+                </dt>
+                <dd>
+                    <h5>NL1-MC01</h5>
+                </dd>
+                <!-- <dt><h5>&nbsp;&nbsp;<i class="fa fa-map-pin"></i>&nbsp;<strong>Locatie</strong></h5></dt>
+                <dd><h5><img height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/266px-Flag_of_the_Netherlands.svg.png"> Nederland</h5></dd>
+              -->
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">RAM &nbsp;<i class="fa fa-memory"></i></h3>
+            </div>
+            <div class="box-body">
+                <canvas id="chart_memory" style="max-height:300px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">CPU &nbsp;<i class="fa fa-microchip"></i></h3>
+            </div>
+            <div class="box-body">
+                <canvas id="chart_cpu" style="max-height:300px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .actionbutton {
+        margin-left: 3px;
+    }
+</style>
+
+<script>
+    fetch('https://eu.mc-api.net/v3/server/ping/nl1-mc01.ferox.host%3A20356')
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(server) {
+            console.log(JSON.stringify(server));
+            if (server.players != undefined) {
+                $("#spelers").html(server.players.online + " / " + server.players.max);
+                $("#versie").html(server.version.name);
+
+                //                             $("#players").empty()
+                //                             $("#players").append("Er zijn geen spelers online")
+                // for(var i = 0; i < server.players.sample.length; i++){
+                //     $("#players").append("<tr><td>" + server.players.sample[i].name + `</td><td class="pull-right"> <button onclick="Socket.emit('send command', 'ban ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">Ban</button><button onclick="Socket.emit('send command', 'pardon ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">Unban</button><button onclick="Socket.emit('send command', 'kick ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">Kick</button><button onclick="Socket.emit('send command', 'whitelist remove ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">Unwhitelist</button><button onclick="Socket.emit('send command', 'whitelist add ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">Whitelist</button><button onclick="Socket.emit('send command', 'deop ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">DeOP</button><button onclick="Socket.emit('send command', 'op ` + server.players.sample[i].name + `')" class="btn btn-sm pull-right actionbutton">OP</button></td></tr>`)
+                // }
+
+
+
+            } else {
+                $("#spelers").html("Not available");
+                $("#versie").html("Not available");
+            }
+        });
+
+</script>
+
+
+<div id="setup">
+    <div id="setup-backdrop"></div>
+    <div id="setup-modal">
+        <div id="setup-flow">
+            <div class="setup-modal-scene" id="setup-scene:0">
+                <div class="setup-content">
+                    <h2>Server setup</h2>
+                    <hr/>
+                    <p>Hoi! Lijkt erop dat dit een nieuwe server is. Welkom bij Ferox Hosting!</p>
+                    <p>In deze setup wizard gaan we je helpen jouw server zo snel mogelijk aan de gang te krijgen, zonder enige benodigde kennis.</p>
+                    <p>Ben je er klaar voor? Klik dan op Volgende.</p>
+                    <br/><br/>
+                    <p class="text-warning"><em>Let op: Gemaakte keuzes en wijzigingen worden pas op beschikbaarheid gecontroleerd en toegepast na het volledig afronden van de setup. Bij tussentijds stoppen gaan keuzes dus verloren!</em></p>
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.util.deleteTrigger(); setup.close();">Ik zet het zelf wel op</button>
+                    <button class="btn btn-primary" onclick="setup.next();">Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:1">
+                <div class="setup-content">
+                    <h2>Minecraft EULA</h2>
+                    <hr/>
+                    <p>Om je Minecraft server op te kunnen starten moet je akkoord gaan met de Mojang's End User Licence Agreement (" EULA "), die te vinden is op <a href="https://account.mojang.com/documents/minecraft_eula" target="_blank">https://account.mojang.com/documents/minecraft_eula</a>.
+                       Hoofdzakelijk betekent dit dat je geen items mag verkopen die mensen een oneerlijke voorsprong geven.
+                </p>
+                    <br/>
+                    <p class="text-warning"><em>Door op Volgende te klikken en de rest van deze Setup te gebruiken ga je akkoord met de Minecraft EULA.</em></p>
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-primary" onclick="setup.next()">Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:2">
+                <div class="setup-content">
+                    <h2>Versie</h2>
+                    <hr/>
+                    <p>Er zijn veel verschillende Minecraft server versies beschikbaar. Vanilla servers, servers met plugins, servers met mods.. Misschien heb je er al een in gedachten, misschien niet. Neem een kijkje op ons <a href="https://feroxhosting.nl/blog/paper-vs-spigot-vs-bukkit/">kennisbank artikel</a> voor meer informatie en maak je keuze.</p>
+                    <br/>
+                    Voor de meeste gebruikers is Paper(Spigot) aangeraden.
+                    <br />
+                    <select class="form-control" id="setup-version-type" onchange="setup.version.update(event.target.value)">
+                                                    <option value="spigot">Paper(Spigot)</option>
+                                                    <option value="purpur">Purpur (paper fork)</option>
+                                                    <option value="forge">Forge</option>
+                                                    <option value="fabric">Fabric</option>
+                                            </select>
+                    <br/>
+                    Voor survival modes is de nieuwste versie aangeraden. Voor games is 1.12.2 vaak een betere keuze.
+                    <br />
+                    <select class="form-control" id="setup-version-number" onchange="document.getElementById('setup-version-continue').disabled = false;">
+                        <option value="" disabled selected>Kies een optie:</option>
+                    </select>
+                    <br />
+                    Als je wil dat spelers op nieuwere versies ook kunnen spelen kan je de plugin <a href="https://www.spigotmc.org/resources/viaversion.19254/" target="_blank">ViaVersion</a> installeren naar het plugins mapje in de bestandsbeheerder.<br />
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-primary" onclick="setup.version.grab(); setup.next()" id="setup-version-continue" disabled>Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:3">
+                <div class="setup-content">
+                    <h2>OPs (Operators)</h2>
+                    <hr/>
+                    <p>Zekere spelers zijn misschien admin of mod op jouw server, en moeten om hun taak uit te kunnen voeren administratieve commands gebruiken. Spelers met OP (operator) status kunnen dit. Voeg hier alle gebruikersnamen van spelers toe die OP moeten hebben op jouw server.</p>
+                    <br/>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Gebruikersnaam.." id="setup-operators-username" onkeypress="if(event.keyCode == 13) e('setup-op-add').click();">
+                        <span class="input-group-btn">
+                            <button class="btn btn-success" type="button" onclick="const inp = document.getElementById('setup-operators-username');setup.operators.add(inp.value);inp.value='';" id="setup-op-add">Voeg toe</button>
+                        </span>
+                    </div>
+                    <br/>
+                    <p>Spelers met OP:</p>
+                    <table class="table table-hover table-bordered" id="setup-operators-users"></table>
+                    <br />
+                    Het is mogelijk om later ook nieuwe gebruikers OP te geven met het commando <code>op degebruikersnaam</code>
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-primary" onclick="setup.whitelist.init(); setup.next()">Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:4">
+                <div class="setup-content">
+                    <h2>Whitelist</h2>
+                    <hr/>
+                    <p>Soms wil je dat alleen specifieke spelers op jouw server kunnen spelen. Zo ja, zet dan de whitelist aan en voeg alle gebruikernamen van spelers toe die op jouw server moeten kunnen inloggen en spelen.</p>
+                    <br/>
+                    <div class="form-group">
+                        <div class="checkbox checkbox-primary no-margin-bottom">
+                            <input id="setup-whitelist-enabled" type="checkbox" onchange="setup.whitelist.updateEnabled(event.target.checked);">
+                            <label for="setup-whitelist-enabled" class="strong">Gebruik een whitelist</label>
+                        </div>
+                        <p class="text-muted small">Sta alleen spelers op de whitelist toe om te joinen</p>
+                    </div>
+                    <br/>
+                    <div id="setup-whitelist-list" style="display: none;">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Gebruikersnaam.." id="setup-whitelist-username" onkeypress="if(event.keyCode == 13) e('setup-whitelist-add').click();">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="button" onclick="const inp = document.getElementById('setup-whitelist-username');setup.whitelist.add(inp.value);inp.value='';" id="setup-whitelist-add">Voeg toe</button>
+                            </span>
+                        </div>
+                        <br/>
+                        <p>Spelers op de whitelist:</p>
+                        <table class="table table-hover table-bordered" id="setup-whitelist-users"></table>
+                        <br />
+                        Het is mogelijk om later ook nieuwe gebruikers te whitelisten met het commando <code>whitelist add degebruikersnaam</code> of de whitelist uit te zetten met <code>whitelist off</code>
+                    </div>
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-primary" onclick="setup.next()">Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:5">
+                <div class="setup-content">
+                    <h2>Subdomeinen</h2>
+                    <hr/>
+                    <p>Het IP van jouw server is <code>45.136.141.71:20356</code>. Dit is wat spelers in Minecraft in kunnen vullen om met jouw server te verbinden.</p>
+                    <p>Een subdomein is vaak makkelijker te onthouden. Je kunt 2 gratis <code>&lt;keuze&gt;.ferox.host</code> of <code>&lt;keuze&gt;.feroxhosting.nl</code> subdomeinen aanmaken en dan kunnen spelers ook via dit adres met jouw server verbinden.</p>
+                    <br/>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Subdomein.." id="setup-subdomains-subdomain" onkeypress="if(event.keyCode == 13) e('setup-subdomains-add').click();">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-success dropdown-toggle" id="setup-subdomains-add" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extensie kiezen <span class="caret"></span></button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a href="#" onclick="const inp = document.getElementById('setup-subdomains-subdomain');setup.subdomains.add(inp.value, 1);inp.value='';">.feroxhosting.nl</a></li>
+                                <li><a href="#" onclick="const inp = document.getElementById('setup-subdomains-subdomain');setup.subdomains.add(inp.value, 2);inp.value='';">.ferox.host</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <table class="table table-hover table-bordered" id="setup-subdomains-list"></table>
+                    <br />
+                    Wil je een adres zonder .ferox.host of .feroxhosting.nl? Het is ook mogelijk om een volledig eigen naam te bestellen op <a href="https://feroxhosting.nl/domeinen" target="_blank">onze site</a>. Deze zal binnen enkele uren automatisch werken
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-primary" onclick="setup.summary.init(); setup.next()">Volgende <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:6">
+                <div class="setup-content">
+                    <h2>Samenvatting</h2>
+                    <hr/>
+                    <p class="text-danger">Let op!: Door op Installeer te klikken wis je je volledige server en worden de in deze setup gemaakte keuzes toegepast. Controlleer deze nog voordat je verder gaat.</p>
+                    <br/>
+                    <p>
+                        <strong>Versie: <span id="setup-summary-version"></span></strong>
+                    </p>
+                    <p>
+                        <strong>Operators:</strong>
+                        <br/>
+                        <span id="setup-summary-operators"></span>
+                    </p>
+                    <p>
+                        <strong>Whitelist: <span id="setup-summary-whitelist-enabled" class="setup-code-inline"></span></strong>
+                        <br/>
+                        <span id="setup-summary-whitelist-list"></span>
+                    </p>
+                    <p>
+                        <strong>Subdomeinen:</strong>
+                        <br/>
+                        <span id="setup-summary-subdomains"></span>
+                    </p>
+                </div>
+                <div class="setup-footer">
+                    <button class="btn" onclick="clearTimeout(setup.summary.enableTimeout); setup.prev()"><i class="fa fa-arrow-left"></i> Terug</button>
+                    <button class="btn btn-danger" onclick="setup.summary.confirm(); setup.next();" id="setup-install">Installeer</button>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:7">
+                <div class="setup-content" style="display: flex; flex-flow: column; justify-content: center; align-items: stretch;">
+                    <div style="font-size: 100px; text-align: center;"><i class="fa fa-exclamation-circle text-warning"></i></div>
+                    <p style="text-align: center;">Weet je zeker dat je verder wilt gaan? <span class="text-danger">Je server zal gewist worden en Ferox Hosting staat niet garant voor verloren gegevens zoals je wereld, plugins, mods, of instellingen!</span></p>
+                    <br/>
+                    <div style="display: flex; flex-flow: row; justify-content: space-evenly;">
+                        <button class="btn" onclick="setup.prev();">Annuleren</button>
+                        <button class="btn btn-danger" onclick="setup.summary.apply(); setup.next();" id="setup-install">Ga toch verder</button>
+                    </div>
+                </div>
+                <div class="setup-footer"></div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:8">
+                <div class="setup-content" style="display: flex; flex-flow: column; justify-content: center; align-items: stretch;">
+                    <div style="font-size: 80px; text-align: center"><i class="fa fa-sync fa-spin text-success"></i></div>
+                    <br/><br/>
+                    <div class="progress" style="margin: 0px 10px; border-radius: 3px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" style="width: 0%" id="setup-apply-progress"></div>
+                    </div>
+                    <br/>
+                    <p style="text-align: center;" id="setup-apply-action">je hebt het gesloopt. why.</p>
+                    <br/>
+                </div>
+                <div class="setup-footer">
+                    <p class="text-danger" style="width: 100%; text-align: center;"><em>Het toepassen kan even duren.<br>Sluit deze pagina niet!</em></p>
+                </div>
+            </div>
+            <div class="setup-modal-scene" id="setup-scene:9">
+                <div class="setup-content">
+                    <h2>Klaar!</h2>
+                    <hr/>
+                    <p>Je keuzes zijn toegepast. Veel plezier met je server en bedankt voor het kiezen van Ferox Hosting.</p>
+                </div>
+                <div class="setup-footer" style="justify-content: flex-end;">
+                    <button class="btn" onclick="setup.close()">Sluiten</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="setup-error" style="display: none;">
+            <div class="setup-modal-scene" style="display: flex; opacity: 1;">
+                <div class="setup-content" style="display: flex; flex-flow: column; justify-content: center; align-items: stretch;">
+                    <div style="font-size: 100px; text-align: center"><i class="fa fa-times text-danger"></i></div>
+                    <p style="text-align: center;">Er is iets fout gegaan tijdens het uitvoeren van de Setup:<br><strong id="setup-error-message"></strong></p>
+                    <p style="text-align: center;">Heb je geen idee wat er gebeurd is? Maak een screenshot en neem contact met ons op via onze <a href="https://discord.gg/q5VWe58" target="_blank">Discord server</a>.</p>
+                    <br/>
+                </div>
+                <div class="setup-footer">
+                    <p class="text-muted" style="width: 100%; text-align: center;" id="setup-error-code"></p>
+                </div>
+                <div class="setup-footer" style="justify-content: flex-end;">
+                    <button class="btn" onclick="setup.close()">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      </section>
+    </div>
+    <footer class="main-footer">
+      <div class="pull-right small text-black" style="margin-right:10px;margin-top:5px;">
+        🍪 voor Wqrld & Magakloon
+      </div>
+      Copyright © <a href="https://wqrld.net">Wqrld</a> - 2024 | Powered by <a href="https://pterodactyl.io/">Pterodactyl</a>.
+    </footer>
+        <aside class="control-sidebar control-sidebar-dark">
+      <div class="tab-content">
+        <ul class="control-sidebar-menu">
+                    <li>
+            <a href="https://panel.ferox.host/server/f2474d5f" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">3072MB JustJan</h4>
+                <p>JustJan&#039;s server</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/2e3cb103" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">4096MB JustJan</h4>
+                <p>JustJan&#039;s server</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/106223b2" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Bot werkt ni meer fz...</h4>
+                <p>JustJan&#039;s bot</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/e06e4a42" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Ticket Bot</h4>
+                <p>JustJan&#039;s bot</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/79407b8e" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">2048MB JustJan</h4>
+                <p>JustJan&#039;s server</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/7640a84a" class="active">
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">3072MB JustJan</h4>
+                <p>JustJan&#039;s server</p>
+              </div>
+            </a>
+          </li>
+                    <li>
+            <a href="https://panel.ferox.host/server/8b9cda18" >
+                            <i class="menu-icon fa fa-user bg-blue"></i>
+                            <div class="menu-info">
+                <h4 class="control-sidebar-subheading">512MB JustJan</h4>
+                <p>JustJan&#039;s server</p>
+              </div>
+            </a>
+          </li>
+                  </ul>
+      </div>
+    </aside>
+        <div class="control-sidebar-bg"></div>
+  </div>
+
+  <script src="/themes/pterodactyl/vendor/jquery/jquery.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/themes/pterodactyl/vendor/bootstrap-notify/bootstrap-notify.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/js/laroute.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+
+  <script src="/themes/pterodactyl/vendor/sweetalert/sweetalert.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/themes/pterodactyl/vendor/bootstrap/bootstrap.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/themes/pterodactyl/vendor/slimscroll/jquery.slimscroll.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/themes/pterodactyl/vendor/adminlte/app.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script src="/themes/pterodactyl/vendor/socketio/socket.io.v203.min.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+
+  <script src="/js/autocomplete.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/all.css">
+  <link media="all" type="text/css" rel="stylesheet" href="/themes/pterodactyl/css/midnight.css?c=3">
+  <!--   -->
+
+
+
+  <script src="/js/keyboard.polyfill.js?t=9f682ec1e7e27a3fc9a9f96fe5a17216"></script>
+  <script>
+    keyboardeventKeyPolyfill.polyfill();
+  </script>
+
+
+
+    
+<script src="/themes/pterodactyl/vendor/ansi/ansi_up.js"></script>
+<script src="/themes/pterodactyl/js/frontend/server.socket.js?cache=21120235"></script>
+<script src="/themes/pterodactyl/vendor/mousewheel/jquery.mousewheel-min.js"></script>
+<script src="/themes/pterodactyl/js/frontend/console.js?t=2117"></script>
+<script src="/themes/pterodactyl/vendor/chartjs/chart.min.js"></script>
+<script src="/themes/pterodactyl/vendor/jquery/date-format.min.js"></script>
+<script src="/themes/pterodactyl/js/plugins/minecraft/eula.js"></script>
+<script src="/themes/pterodactyl/js/plugins/minecraft/setup.js?cache=2412023"></script>
+<script>
+    setup.version.update("spigot");
+</script>
+<script>
+    if (window.Pterodactyl.server.daystogo != null) {
+        document.getElementById("timeLeft").innerHTML = window.Pterodactyl.server.daystogo.diff;
+    }
+</script>
 </body>
+
 </html>
